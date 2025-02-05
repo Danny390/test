@@ -15,9 +15,8 @@ import { useGoogleLogin } from "@react-oauth/google";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { AuthInterface, setAuth } from "../../context/features/authSlice";
+import { setAuth } from "../../context/features/authSlice";
 import { addUser, validateUser } from "../../indexDB";
-import { validateUserTokenGoogle } from "../../SSO/utils";
 import { GoogleTokenInterface } from "../../types";
 
 const LoginSignupForm = () => {

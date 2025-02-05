@@ -17,7 +17,6 @@ export const authSlice = createSlice({
 	} as AuthInterface,
 	reducers: {
 		setAuth: (state, { payload }: PayloadAction<AuthInterface>) => {
-			console.log("payload", payload);
 			state.name = payload.name;
 			state.email = payload.email;
 			state.profilePhotoURL = payload.profilePhotoURL;

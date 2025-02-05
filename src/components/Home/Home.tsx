@@ -10,7 +10,6 @@ const Home = () => {
 	const dispatch = useDispatch();
 	const user: AuthInterface = useSelector((state: any) => state.auth);
 
-	console.log("here1", user);
 	useEffect(() => {
 		if (!navigate || !user || !user.email) return;
 

@@ -17,7 +17,7 @@ export const validateUserTokenGoogle = async (
 
 		return response.data;
 	} catch (error) {
-		console.log(error);
+		console.error(error);
 		return;
 	}
 };
