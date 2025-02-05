@@ -15,14 +15,14 @@ const Home = () => {
 		if (!navigate || !user || !user.email) return;
 
 		if (!user.isAuthenticated) {
-			navigate("/home");
+			navigate("/test");
 		}
 	}, [user, navigate]);
 
 	const logOut = () => {
 		googleLogout();
 		dispatch(clearAuth());
-		navigate("/home");
+		navigate("/test");
 	};
 
 	return (
