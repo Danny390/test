@@ -2,10 +2,12 @@
 
 const CACHE_NAME = 'my-pwa-cache';
 const FILES_TO_CACHE = [
-  // '/',
-  // 'index.html',
-  // 'styles.css',
-  // 'script.js',
+  '/',
+  'index.html',
+  'styles.css',
+  'script.js',
+  'images/icon-192x192.png',
+  'images/icon-512x512.png',
 ];
 
 
